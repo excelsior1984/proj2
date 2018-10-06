@@ -18,7 +18,7 @@ pipeline {
         }
 	stage('Sonar') {
             steps {
-                sh "mvn sonar:sonar
+                sh "mvn sonar:sonar"
             }
         }
     }
