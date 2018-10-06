@@ -15,4 +15,8 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <properties>
+    <sonar.host.url>http://mysonar:9000</sonar.host.url>
+  </properties>
 </project>
